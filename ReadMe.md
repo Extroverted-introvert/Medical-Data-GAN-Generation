@@ -1,9 +1,9 @@
 # AI Lab: Deep Learning for Computer Vision - Medical Image Generation
-
+![alt text](image_top.png)
 This repository contains a series of Jupyter Notebooks and a Python web application from the **WorldQuant University "AI Lab: Deep Learning for Computer Vision"** course. The project guides you through the process of understanding, building, and deploying Generative Adversarial Networks (GANs) for creating synthetic medical images.
 
 The labs progress from foundational Python concepts to building a complete GAN from scratch, leveraging pre-trained models, and finally, deploying a user-friendly web application with Streamlit.
-
+![alt text](scan_gan.png) ![alt text](scan_orig.png)
 ## 📚 Project Contents
 
 The repository is structured into weekly labs, each focusing on a different aspect of the project.
@@ -42,6 +42,8 @@ The final lab focuses on deploying the project as an interactive web application
   - Creating UI components like dropdowns (`st.selectbox`), numeric inputs (`st.number_input`), and buttons (`st.button`).
   - Integrating the `medigan` image generation functionality into the web app.
   - Building a user-friendly interface that allows users to select a GAN model, specify the number of images, and view the generated results directly in their browser.
+
+![alt text](tumor_color.png) ![alt text](tumor_extracted.png)
 
 ## 🚀 Getting Started
 
